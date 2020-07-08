@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 const MyParticles = () => {
   return (
     <Particles
+      height="400vh"
       params={{
         particles: {
           number: {

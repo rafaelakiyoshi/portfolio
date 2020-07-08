@@ -1,10 +1,12 @@
+import React from "react";
 import Head from "next/head";
 import MyParticles from "../components/particles";
 import About from "../components/about"
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
-    <div className="main-container">
+    <React.Fragment>
       <Head>
         <title>Rafael Akiyoshi</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,7 +18,8 @@ export default function Home() {
       <MyParticles />
       <div className="main-container">
         <About />
+        <Projects />
       </div>
-    </div>
+    </React.Fragment>
   );
 }

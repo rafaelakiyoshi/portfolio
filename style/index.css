@@ -1,19 +1,50 @@
 body {
   font-family: 'Cutive Mono';
-  margin: 10px;
-  background-color: #121212
+  margin: 0px;
+  /* background-color: #121212 */
+  
+  background: rgb(18,18,18);
+  /* background: -moz-linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(33,33,33,1) 90%);
+  background: -webkit-linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(33,33,33,1) 90%);
+  background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(33,33,33,1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121212",endColorstr="#212121",GradientType=1);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed; */
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ce822b; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
 }
 
 .main-container {
-  border-radius: 10px;
-  /* background-color: #1e1e1e; */
-  margin: 0;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  /* top: 0; */
+  /* border-radius: 10px;
+  margin: 0;
   right: 0;
-  left: 0;
-  top: 40%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  padding: 10px;
-  margin: 10px;
+  left: 0; */
+  top: 30%;
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
