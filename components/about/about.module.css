@@ -1,0 +1,37 @@
+
+.myName {
+  color: #e1e1e1;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.myDesc {
+  color: #8b8c8b;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.kanji {
+  color: #ce822b;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  color: #8b8c8b;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #e1e1e1;
+}
+
+.iconsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
