@@ -29,6 +29,7 @@ body {
   color: #8b8c8b;
   text-align: center;
   margin-top: 5px;
+  margin-bottom: 8px;
 }
 
 .kanji {
@@ -36,4 +37,20 @@ body {
   text-align: center;
   font-size: 30px;
   margin-bottom: 0px;
+}
+
+.logo {
+  color: #8b8c8b;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #e1e1e1;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

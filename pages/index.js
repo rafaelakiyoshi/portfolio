@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function Home() {
   return (
@@ -12,6 +14,14 @@ export default function Home() {
         <h1 className="kanji">秋吉</h1>
         <h1 className="my-name">Rafael Akiyoshi</h1>
         <p className="my-desc">Software Engineer</p>
+        <div className="icons-list">
+          <a href="https://github.com/rafaelakiyoshi">
+            <GitHubIcon  style={{ fontSize: 20 }} className="logo"/>
+          </a>
+          <a href="https://www.linkedin.com/in/rafaelakiyoshi/">
+            <LinkedInIcon  style={{ fontSize: 25 }} className="logo"/>
+          </a>
+        </div>
       </div>
     </div>
   )
