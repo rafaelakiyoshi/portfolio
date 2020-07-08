@@ -1,0 +1,19 @@
+.title {
+  color: #e1e1e1;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  height: 1px;
+  width: 200px;
+  margin: 20px;
+  background-color: #ce822b; ;
+}
