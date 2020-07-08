@@ -1,11 +1,11 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import styles from './about.module.css'
+import styles from './about.module.css';
 
 const About = () => {
   return (
-    <React.Fragment>
+    <div className={styles.aboutContainer}>
       <h1 className={styles.kanji}>秋吉</h1>
       <h1 className={styles.myName}>Rafael Akiyoshi</h1>
       <p className={styles.myDesc}>Software Engineer</p>
@@ -17,7 +17,7 @@ const About = () => {
           <LinkedInIcon style={{ fontSize: 25 }} className={styles.logo} />
         </a>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
