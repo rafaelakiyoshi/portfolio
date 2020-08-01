@@ -11,9 +11,48 @@
   align-items: center;
 }
 
-.divider {
+.dividerLeft {
   height: 1px;
-  width: 200px;
+  width: 50%;
   margin: 20px;
-  background-color: #ce822b; ;
+  background: rgb(18, 18, 18);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121212",endColorstr="#ce822b",GradientType=1);
+}
+
+.dividerRigth {
+  height: 1px;
+  width: 50%;
+  margin: 20px;
+  background: rgb(18, 18, 18);
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(18, 18, 18, 1) 30%,
+    rgba(206, 130, 43, 1) 90%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121212",endColorstr="#ce822b",GradientType=1);
 }

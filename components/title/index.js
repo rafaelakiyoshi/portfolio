@@ -6,9 +6,9 @@ const Title = props => {
   return (
     <React.Fragment>
       <div className={styles.inline}>
-        <div className={styles.divider}/>
+        <div className={styles.dividerLeft}/>
         <h1 className={styles.title}>{text}</h1>
-        <div className={styles.divider}/>
+        <div className={styles.dividerRigth}/>
       </div>
     </React.Fragment>
   );
