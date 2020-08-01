@@ -1,0 +1,24 @@
+.dot {
+  border-color: #ce822b !important;
+  margin: 0 !important;
+  color: white !important;
+  border-width: 1.4px !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  width: 107px !important;
+}
+
+.connector {
+  background-color: rgb(146, 146, 146) !important;
+  width: 0.5px !important;
+
+}
+
+.title {
+  color: white;
+  margin-top: -15px !important;
+}
+
+.desc {
+  color: white;
+}
