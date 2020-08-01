@@ -1,0 +1,39 @@
+.project {
+  height: 150px;
+  color: #fff;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background: #333;
+  border: 2px solid #444;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  border-radius: 0px;
+  position: relative;
+}
+
+.github {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid rgb(196, 196, 196);
+  border-left: 50px solid transparent;
+  display: flex;
+}
+
+.githubIcon {
+  position: absolute;
+  top: -46px;
+  right: 1px;
+  width: 25px;
+  height: 25px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.technology {
+  width: 40px;
+  height: 40px;
+}
