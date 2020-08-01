@@ -1,0 +1,74 @@
+[
+  {
+    "title": "早い",
+    "description": "A Next.js boilerplate",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  },
+  {
+    "title": "秋吉",
+    "description": "A nice and clean portfolio",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  },
+  {
+    "title": "コード",
+    "description": "Code viewer using Github API",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  },
+  {
+    "title": "時計",
+    "description": "A personal PWA countdown",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  },
+  {
+    "title": "ウォルター",
+    "description": "Fitness Ecossystem platform",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  },
+  {
+    "title": "ヤシの木",
+    "description": "Garden display website",
+    "technologies": [
+      "next",
+      "swr",
+      "react",
+      "less",
+      "ant-design"
+    ],
+    "projectUrl": "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
+  }
+]

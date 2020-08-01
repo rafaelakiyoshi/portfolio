@@ -1,3 +1,59 @@
 .space {
-  height: 95vh;
+  /* height: 95vh; */
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: minmax(150px, 35%) 1fr;
+  overflow: hidden;
+  max-height: 70vh;
+}
+
+.projects {
+  margin-top: 2rem;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  overflow-y: scroll;
+  direction: rtl;
+  /* padding-left: 17px; Increase/decrease this value for cross-browser compatibility */
+  min-height: 60vh;
+  max-height: 60vh;
+}
+
+.code {
+  min-height: 60vh;
+  max-height: 60vh;
+}
+
+.rigth {
+  padding: 2rem;
+}
+
+
+.codeFrame {
+  padding: 0 !important;
+  padding-top: 2.2em !important;
+  box-shadow: unset !important;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.educationChild {
+  padding-right: 30px;
+  flex: 0 1 300px;
+  flex: 1 1 300px;
+}
+
+.skillIcon {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
 }
