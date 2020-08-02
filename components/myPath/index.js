@@ -10,7 +10,7 @@ import styles from "./myPath.module.css";
 
 export default function CustomizedTimeline() {
   return (
-    <Timeline align="left" style={{ paddingLeft: "50px"}}>
+    <Timeline align="left" style={{ paddingLeft: "5%"}}>
       <TimelineItem style={{ minHeight: "120px" }}>
         <TimelineSeparator>
           <TimelineDot variant="outlined" className={styles.dot}>
@@ -22,7 +22,7 @@ export default function CustomizedTimeline() {
           Full Stack Developer
           <p>Fluent.ai - Montreal, CA</p>
         </TimelineContent>
-        <TimelineOppositeContent style={{ flex: 0 }} />
+        <TimelineOppositeContent style={{ flex: 0, padding: 0 }} />
       </TimelineItem>
       <TimelineItem style={{ minHeight: "120px" }}>
         <TimelineSeparator>
@@ -35,7 +35,7 @@ export default function CustomizedTimeline() {
           Full Stack Developer
           <p>Lexana - Brasilia, BR</p>
         </TimelineContent>
-        <TimelineOppositeContent style={{ flex: 0 }} />
+        <TimelineOppositeContent style={{ flex: 0, padding: 0 }} />
       </TimelineItem>
       <TimelineItem style={{ minHeight: "120px" }}>
         <TimelineSeparator>
@@ -48,7 +48,7 @@ export default function CustomizedTimeline() {
           Project Manager
           <p>Legal Labs - Brasilia, BR</p>
         </TimelineContent>
-        <TimelineOppositeContent style={{ flex: 0 }} />
+        <TimelineOppositeContent style={{ flex: 0, padding: 0 }} />
       </TimelineItem>
       <TimelineItem style={{ minHeight: "120px" }}>
         <TimelineSeparator>
@@ -61,7 +61,7 @@ export default function CustomizedTimeline() {
           Full Stack Developer
           <p>Legal Labs - Brasilia, BR</p>
         </TimelineContent>
-        <TimelineOppositeContent style={{ flex: 0 }} />
+        <TimelineOppositeContent style={{ flex: 0, padding: 0 }} />
       </TimelineItem>
       <TimelineItem style={{ minHeight: "120px" }}>
         <TimelineSeparator>
@@ -73,7 +73,7 @@ export default function CustomizedTimeline() {
           Software Engineering
           <p>University of Brasilia - Brasilia, BR</p>
         </TimelineContent>
-        <TimelineOppositeContent style={{ flex: 0 }} />
+        <TimelineOppositeContent style={{ flex: 0, padding: 0 }} />
       </TimelineItem>
     </Timeline>
   );

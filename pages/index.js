@@ -1,8 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import MyParticles from "../components/particles";
-import About from "../components/about"
+import About from "../components/about";
 import Projects from "../components/projects";
+import Education from "../components/education";
 
 export default function Home() {
   return (
@@ -16,10 +17,18 @@ export default function Home() {
         ></link>
       </Head>
       <MyParticles />
-      <div className="main-container">
-        <About />
-        <Projects />
-      </div>
+      <About />
+      <Projects />
+      <Education />
+      {/* <img
+        src="./planet2.svg"
+        style={{
+          width: "400px",
+          height: "300px",
+          position: "absolute",
+          left: 0,
+        }}
+      /> */}
     </React.Fragment>
   );
 }

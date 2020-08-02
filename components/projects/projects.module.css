@@ -1,59 +1,45 @@
-.space {
-  /* height: 95vh; */
+@media (max-width: 500px) {
+  .parent {
+    display: flex !important;
+    flex-direction: column;
+    margin: 10px;
+  }
 }
 
 .parent {
   display: grid;
-  grid-template-columns: minmax(150px, 35%) 1fr;
-  overflow: hidden;
-  max-height: 70vh;
+  align-content: start; 
+  grid-template-columns: minmax(170px, 40%) 1fr;
+  max-height: 80vh;
+  margin-bottom: 5%;
+  /* margin: 0 5%; */
 }
 
 .projects {
-  margin-top: 2rem;
-  padding: 0 2rem 2rem 2rem;
+  padding: 0;
   text-align: center;
   display: grid;
+  align-content: start; 
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   overflow-y: scroll;
+  padding: 0 5%;
   direction: rtl;
-  /* padding-left: 17px; Increase/decrease this value for cross-browser compatibility */
-  min-height: 60vh;
-  max-height: 60vh;
+  min-height: 83.5vh;
+  max-height: 83.5vh;
 }
 
 .code {
-  min-height: 60vh;
-  max-height: 60vh;
+  min-height: 80vh;
+  max-height: 80vh;
 }
 
 .rigth {
-  padding: 2rem;
+  margin-right: 5%;
 }
-
 
 .codeFrame {
   padding: 0 !important;
   padding-top: 2.2em !important;
   box-shadow: unset !important;
-}
-
-.education {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-}
-
-.educationChild {
-  padding-right: 30px;
-  flex: 0 1 300px;
-  flex: 1 1 300px;
-}
-
-.skillIcon {
-  width: 60px;
-  height: 60px;
-  margin: 20px;
 }
