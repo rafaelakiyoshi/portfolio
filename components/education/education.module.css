@@ -1,0 +1,54 @@
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  max-height: 100vh;
+  min-height: 104vh;
+}
+
+.educationChild {
+  padding: 0 5%;
+  flex: 0 1 300px;
+  flex: 1 1 300px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillIcon {
+  width: 5%;
+  height: 5%;
+  margin: 20px;
+}
+
+.skillIconSmall {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+}
+
+.languages {
+  text-align: right;
+  color: rgb(212, 212, 212);
+  padding: 0 5%;
+}
+
+.language {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.languages h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.languages h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
