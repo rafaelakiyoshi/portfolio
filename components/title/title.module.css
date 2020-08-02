@@ -1,7 +1,7 @@
 .title {
   color: #e1e1e1;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   margin-top: 0;
 }
 
@@ -9,26 +9,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .dividerLeft {
   height: 1px;
   width: 50%;
   margin: 20px;
-  background: rgb(18, 18, 18);
+  background: rgba(18, 18, 18, 0);
   background: -moz-linear-gradient(
     90deg,
-    rgba(18, 18, 18, 1) 30%,
+    rgba(18, 18, 18, 0) 30%,
     rgba(206, 130, 43, 1) 90%
   );
   background: -webkit-linear-gradient(
     90deg,
-    rgba(18, 18, 18, 1) 30%,
+    rgba(18, 18, 18, 0) 30%,
     rgba(206, 130, 43, 1) 90%
   );
   background: linear-gradient(
     90deg,
-    rgba(18, 18, 18, 1) 30%,
+    rgba(18, 18, 18, 0) 30%,
     rgba(206, 130, 43, 1) 90%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121212",endColorstr="#ce822b",GradientType=1);
