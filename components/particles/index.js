@@ -1,13 +1,15 @@
 import Particles from "react-particles-js";
+import styles from "./particles.module.css";
 
 const MyParticles = () => {
   return (
     <Particles
-      height="400vh"
+      canvasClassName={styles.test}
+      height="295vh"
       params={{
         particles: {
           number: {
-            value: 60,
+            value: 80,
             density: {
               enable: true,
               value_area: 1500,
