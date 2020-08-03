@@ -1,6 +1,6 @@
 .project {
   cursor: pointer;
-  min-height: 150px;
+  min-height: 110px;
   color: #fff;
   /* transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   background: #333;
@@ -17,6 +17,7 @@
   border-top: 50px solid rgb(196, 196, 196);
   border-left: 50px solid transparent;
   display: flex;
+  right: 0;
 }
 
 .githubIcon {

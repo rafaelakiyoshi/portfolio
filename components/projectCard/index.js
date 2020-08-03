@@ -14,13 +14,13 @@ const ProjectCard = (props) => {
         </div>
         <h1 className="kanji">{title}</h1>
         <p>{description}</p>
-        <div className={styles.technologies}>
+        {/* <div className={styles.technologies}>
           {technologies.map((technology) => {
             return (
               <img src={`./${technology}.svg`} className={styles.technology} />
             );
           })}
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
