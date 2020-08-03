@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../title";
 import CustomizedTimeline from "../myPath";
+import SkillCard from "../skillCard";
 import styles from "./education.module.css";
 
 const Education = () => {
@@ -9,29 +10,39 @@ const Education = () => {
       <div className={styles.educationChild}>
         <Title text="Path" />
         <CustomizedTimeline />
+        <img
+        src="./planet2.svg"
+        style={{
+          width: "300px",
+          height: "200px",
+          position: "absolute",
+          left: 0,
+          bottom: -2000
+        }}
+      />
       </div>
       <div className={styles.educationChild}>
         <Title text="Skills" />
         <div className={styles.technologies}>
-          <img src="./javascript.svg" className={styles.skillIcon} />
-          <img src="./react.svg" className={styles.skillIcon} />
-          <img src="./next.svg" className={styles.skillIcon} />
-          <img src="./node.svg" className={styles.skillIcon} />
-          <img src="./mongodb.svg" className={styles.skillIconSmall} />
-          <img src="./git.svg" className={styles.skillIcon} />
-          <img src="./graphql.svg" className={styles.skillIcon} />
-          <img src="./jest.svg" className={styles.skillIcon} />
-          <img src="./less.svg" className={styles.skillIcon} />
-          <img src="./linux.svg" className={styles.skillIcon} />
-          <img src="./mysql.svg" className={styles.skillIcon} />
-          <img src="./npm.svg" className={styles.skillIcon} />
-          <img src="./postman.svg" className={styles.skillIcon} />
-          <img src="./redux.svg" className={styles.skillIcon} />
-          <img src="./vue.svg" className={styles.skillIcon} />
-          <img src="./typescript.svg" className={styles.skillIcon} />
-          <img src="./docker.svg" className={styles.skillIcon} />
-          <img src="./ant-design.svg" className={styles.skillIcon} />
-          <img src="./firebase.svg" className={styles.skillIcon} />
+          <SkillCard skillSVG="javascript" skillName="JavaScript"/>
+          <SkillCard skillSVG="react" skillName="React"/>
+          <SkillCard skillSVG="next" skillName="Next.js"/>
+          <SkillCard skillSVG="node" skillName="Node.js"/>
+          <SkillCard skillSVG="mongodb" skillName="MongoDB"/>
+          <SkillCard skillSVG="git" skillName="Git"/>
+          <SkillCard skillSVG="graphql" skillName="GraphQL"/>
+          <SkillCard skillSVG="jest" skillName="Jest"/>
+          <SkillCard skillSVG="less" skillName="Less"/>
+          <SkillCard skillSVG="linux" skillName="Linux"/>
+          <SkillCard skillSVG="mysql" skillName="MySQL"/>
+          <SkillCard skillSVG="npm" skillName="NPM"/>
+          <SkillCard skillSVG="postman" skillName="Postman"/>
+          <SkillCard skillSVG="redux" skillName="Redux"/>
+          <SkillCard skillSVG="vue" skillName="Vue"/>
+          <SkillCard skillSVG="typescript" skillName="TypeScript"/>
+          <SkillCard skillSVG="docker" skillName="Docker"/>
+          <SkillCard skillSVG="ant-design" skillName="Ant Design"/>
+          <SkillCard skillSVG="firebase" skillName="Firebase"/>
         </div>
         <Title text="Languages" />
         <div className={styles.languages}>

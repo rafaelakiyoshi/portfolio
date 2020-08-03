@@ -3,8 +3,8 @@
   flex-wrap: wrap;
   /* justify-content: space-between; */
   /* align-items: stretch; */
-  max-height: 100vh;
-  min-height: 104vh;
+  /* max-height: 100vh;
+  min-height: 104vh; */
 }
 
 .educationChild {
@@ -16,7 +16,7 @@
 .technologies {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .skillIcon {
