@@ -5,7 +5,6 @@ const MyParticles = () => {
   return (
     <Particles
       canvasClassName={styles.test}
-      height="295vh"
       params={{
         particles: {
           number: {
