@@ -1,18 +1,46 @@
-import { motion } from "framer-motion";
+import { motion, useCycle } from "framer-motion";
 import styles from "./projectCard.module.css";
-
+const screenContent = "< />";
 const ProjectCard = (props) => {
-  const { title, description, technologies, setProjectUrl, projectUrl } = props;
+  const {
+    title,
+    description,
+    selected,
+    setProjectUrl,
+    projectUrl,
+    selectProject,
+  } = props;
+  const selectedClass =
+    selected === title
+      ? { border: "2px solid  #ce822b", backgroundColor: "#525252" }
+      : { border: "2px solid  #444", background: "#333" };
+  const translateY = selected !== title ? -15 : 0;
+
+  const clickProjectHandler = () => {
+    selectProject(title);
+    setProjectUrl(projectUrl);
+  };
   return (
     <motion.div
-      whileHover={{ scale: 1.05, transition: { duration: 0.05 } }}
-      whileTap={{ scale: 0.95, transition: { duration: 0.05 } }}
+      // style={{ ...selectedClass }}
+      // whileHover={{
+      //   translateY,
+      //   backgroundColor: "#525252",
+      //   transition: { duration: 0.1 },
+      // }}
+      // whileTap={{ scale: 0.95, transition: { duration: 0.05 } }}
     >
-      <div className={styles.project} onClick={() => setProjectUrl(projectUrl)}>
-        <div className={styles.github}>
-          <img src="./github.svg" className={styles.githubIcon} />
+      <div className={styles.project} onClick={() => clickProjectHandler()}>
+
+        <div className={styles.customIcon}>
+          <div className={styles.screen}>{screenContent}</div>
+          <div className={styles.keyboard}/>
         </div>
-        <h1 className="kanji">{title}</h1>
+
+        {/* <div className={styles.github}>
+          <img src="./github.svg" className={styles.githubIcon} />
+        </div> */}
+        <h1 className={styles.cardTitle}>{title}</h1>
         <p>{description}</p>
         {/* <div className={styles.technologies}>
           {technologies.map((technology) => {
