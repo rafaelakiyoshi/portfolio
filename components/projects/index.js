@@ -11,6 +11,8 @@ const Projects = () => {
     "https://project-navigator.vercel.app/project?profile=rafaelakiyoshi&project=Hayai"
   );
 
+  const [selected, selectProject] = useState("早い");
+
   return (
     <React.Fragment>
       <Title text="Projects" />
@@ -20,6 +22,8 @@ const Projects = () => {
             {projects.map((project) => {
               return (
                 <ProjectCard
+                  selected={selected}
+                  selectProject={selectProject}
                   setProjectUrl={setProjectUrl}
                   title={project.title}
                   description={project.description}
@@ -38,16 +42,17 @@ const Projects = () => {
                 border={0}
               >
                 <div className={styles.code}>
-                  <iframe
+                  {/* <iframe
                     style={{
-                      border: 0,
+                      border: "none",
+                      overflow: "hidden",
                       width: "100%",
-                      height: "80vh",
+                      height: "50vh",
                       margin: 0,
                     }}
                     src={projectUrl}
                     title="W3Schools Free Online Web Tutorials"
-                  />
+                  /> */}
                 </div>
               </Browser>
             </div>

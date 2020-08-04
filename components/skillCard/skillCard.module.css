@@ -1,18 +1,18 @@
 .skillCard {
   background: rgb(41, 41, 41);
   border-radius: 10px;
-  /* width:150px; */
+  /* width:100px; */
   display: flex;
   align-items: center;
   justify-items: center;
   /* justify-content: space-evenly; */
-  padding: 5px 10px;
-  margin: 10px;
+  padding: 0px 5px;
+  margin: 5px;
 }
 
 .skillIcon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 0 5px;
 }
 
@@ -20,4 +20,5 @@
   color: rgb(201, 201, 201);
   font-size: 18px;
   font-weight: bolder;
+  font-size: 15px;
 }

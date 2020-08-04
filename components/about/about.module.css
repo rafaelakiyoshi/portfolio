@@ -22,6 +22,7 @@
 }
 
 .kanji {
+  font-family: 'Times New Roman', Times, serif;
   color: #ce822b;
   text-align: center;
   font-size: 30px;
