@@ -4,6 +4,7 @@ import MyParticles from "../components/particles";
 import About from "../components/about";
 import Projects from "../components/projects";
 import Education from "../components/education";
+import SpaceShip from "../components/spaceShip";
 
 export default function Home() {
   return (
@@ -20,15 +21,7 @@ export default function Home() {
       <About />
       <Projects />
       <Education />
-      {/* <img
-        src="./planet2.svg"
-        style={{
-          width: "400px",
-          height: "300px",
-          position: "absolute",
-          left: 0,
-        }}
-      /> */}
+      <SpaceShip />
     </React.Fragment>
   );
 }
