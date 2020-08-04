@@ -10,7 +10,7 @@ const Education = () => {
       <div className={styles.educationChild}>
         <Title text="Path" />
         <CustomizedTimeline />
-        <img
+        {/* <img
         src="./planet2.svg"
         style={{
           width: "300px",
@@ -19,7 +19,7 @@ const Education = () => {
           left: 0,
           bottom: -2000
         }}
-      />
+      /> */}
       </div>
       <div className={styles.educationChild}>
         <Title text="Skills" />
