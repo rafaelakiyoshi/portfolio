@@ -1,12 +1,18 @@
 body {
   font-family: "Cutive Mono";
-  min-width: fit-content;
-  margin: 0 15%;
+  min-width: auto;
+  margin: 0 auto;
   /* padding: 0; */
-  width: 40%;
+  width: 60%;
   height: 100%;
   background: #121212;
   overflow-x: hidden;
+}
+
+@media (max-width: 1300px) {
+  body {
+    width: 85%;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -31,17 +37,7 @@ body {
 }
 
 .main-container {
-  /* position: absolute;
-  width: 100%;
-  height: 100%; */
   margin-top: 20%;
-  /* top: 0; */
-  /* border-radius: 10px;
-  margin: 0;
-  right: 0;
-  left: 0; */
-  /* -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
 }
 
 .kanji {

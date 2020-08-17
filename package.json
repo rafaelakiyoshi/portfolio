@@ -16,6 +16,7 @@
     "react": "16.13.1",
     "react-device-detect": "^1.13.1",
     "react-dom": "16.13.1",
+    "react-multi-carousel": "^2.5.5",
     "react-particles-js": "^3.2.1",
     "react-vertical-timeline-component": "^3.0.2",
     "react-window-ui": "^2.2.0"
