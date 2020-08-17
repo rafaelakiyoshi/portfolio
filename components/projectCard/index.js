@@ -12,8 +12,8 @@ const ProjectCard = (props) => {
   } = props;
   const selectedClass =
     selected === title
-      ? { border: "2px solid  #ce822b", backgroundColor: "#525252" }
-      : { border: "2px solid  #444", background: "#333" };
+      ? { border: "2px solid  #ce822b", backgroundColor: "#4e4e4e" }
+      : { border: "0px solid  #444", background: "#2a2a2a;" };
   const translateY = selected !== title ? -15 : 0;
 
   const clickProjectHandler = () => {
@@ -22,15 +22,13 @@ const ProjectCard = (props) => {
   };
   return (
     <motion.div
-      // style={{ ...selectedClass }}
-      // whileHover={{
-      //   translateY,
-      //   backgroundColor: "#525252",
-      //   transition: { duration: 0.1 },
-      // }}
-      // whileTap={{ scale: 0.95, transition: { duration: 0.05 } }}
+      whileHover={{
+        translateY,
+        transition: { duration: 0.1 },
+      }}
+      whileTap={{ scale: 0.95, transition: { duration: 0.05 } }}
     >
-      <div className={styles.project} onClick={() => clickProjectHandler()}>
+      <div style={{ ...selectedClass }} className={styles.project} onClick={() => clickProjectHandler()}>
 
         <div className={styles.customIcon}>
           <div className={styles.screen}>{screenContent}</div>

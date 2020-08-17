@@ -1,13 +1,36 @@
+@media (max-width: 1400px) {
+  .project {
+    min-height: 100px !important;
+    max-height: 100px !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
+  }
+  .project .cardTitle {
+    font-size: 20px !important;
+    padding-top: 1.5rem !important;
+    margin-bottom: 0;
+  }
+  .project p {
+    font-size: 13px !important;
+    padding: 0px !important;
+    margin-top: 5px;
+  }
+}
+
 .project {
   cursor: pointer;
   min-height: 150px;
+  max-height: 150px;
+  min-width: 200px;
+  max-width: 200px;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background: #2a2a2a;
   box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
   border-radius: 10px;
   position: relative;
   color: #bebebe;
-  padding: 0 10px;
+  margin: 0 10px;
+  text-align: center;
 }
 
 .customIcon {
@@ -38,11 +61,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 9999999;
 }
 
 .keyboard {
-  width: 65px;
-  height: 5px;
+  width: 70px;
+  height: 2px;
   border: 1px solid #272727;
   border-radius: 0px 0px 5px 5px;
   background-color: rgb(233, 233, 233);
