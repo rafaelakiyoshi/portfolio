@@ -16,12 +16,18 @@
 }
 
 .projects {
-  padding: 0;
+  height: 230px !important;
+  /* margin-top: 40px; */
+  /* padding: 0;
   text-align: center;
   display: grid;
   align-content: start; 
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+}
+
+.projects .react-multi-carousel-list {
+  height: 220px !important;
 }
 
 .code {
@@ -30,7 +36,7 @@
 }
 
 .rigth {
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-bottom: 10rem;
 }
 
